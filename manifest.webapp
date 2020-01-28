@@ -1,0 +1,30 @@
+{
+  "name": "Twitter for KaiOS",
+  "description": "A Twitter App for KaiOS",
+  "version": "0.0.1",
+  "developer": {
+    "name": "Your name",
+    "url": "http://example.com"
+  },
+  "launch_path": "/index.html",
+    "icons": {
+    "56": "/icons/app_56.png",
+    "112": "/icons/app_112.png"
+  },
+  "theme_color": "#a065e6",
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {}
+  },
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "orientation": "default",
+  "locales": {
+    "en-US": {
+      "name": "Twitter for KaiOS",
+      "description": "Twitter for KaiOS"
+    }
+  },
+  "default_locale": "en-US"
+}
